@@ -53,7 +53,6 @@ button {
     border: none;
     background-color: #3498db;
     color: white;
-    /* border-radius: 8px; */
     border-radius: 4px;
     cursor: pointer;
     transition: 0.2s;
@@ -78,6 +77,8 @@ li {
     padding: 10px 10px 10px 15px;
     margin: 12px 20px 12px -20px;
     justify-content: space-between;
+    overflow-x: auto;
+    overflow-y: hidden;
 }
 
 .completed {
